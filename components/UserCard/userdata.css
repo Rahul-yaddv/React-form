@@ -1,0 +1,11 @@
+.form-container {
+  /* border: black solid 1px; */
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 33rem;
+  width: 100%;
+  overflow: hidden;
+  line-height: 2.7rem;
+  text-align: center;
+}

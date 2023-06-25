@@ -1,0 +1,36 @@
+label {
+  font-weight: bold;
+  font-size: x-large;
+  display: flex;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='password'] {
+  width: 25%;
+  border: black solid 2px;
+  height: 1.8rem;
+  display: block;
+  width: 21rem;
+  line-height: 2rem;
+  font-size: larger;
+}
+.button-submit {
+  margin-top: 1rem;
+  border: black solid 1.8px;
+  width: 25%;
+  height: 1.5rem;
+  font-size: large;
+}
+
+.button-submit:active {
+  background-color: grey;
+  border: white solid 1.8px;
+}
+
+.form-error {
+  color: red;
+  text-align: left;
+  margin: 0;
+}
